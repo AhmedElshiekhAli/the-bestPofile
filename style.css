@@ -8,6 +8,26 @@
 body{
     background: #1f242d;
     color:#fff ;
+     flex-wrap: wrap;
+        @media (min-width: 768px) {
+            .container {
+                width: 750px;
+            }
+        }
+    
+        /* Medium */
+        @media (min-width: 992px) {
+            .container {
+                width: 970px;
+            }
+        }
+    
+        /* Large */
+        @media (min-width: 1200px) {
+            .container {
+                width: 1170px;
+            }
+        }
 }
 .header{
   position: fixed;
@@ -187,4 +207,5 @@ box-shadow: 0 0 20px #0ef;
         opacity: 1;
     }
 }
+
 
